@@ -1,0 +1,11 @@
+C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\App.g.i.cs
+C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\App.g.cs
+C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\MainPage.g.cs
+C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\App.xaml
+C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\MainPage.xaml
+C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\Views\chatView.xaml
+C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\App.xbf
+C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\MainPage.xbf
+C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\Views\chatView.xbf
+C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\XamlSaveStateFile.xml

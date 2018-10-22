@@ -27507,11 +27507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lzumarraga\\OneDrive\\2018-19\\REPOSITORIOS\\DesarrolloDeInterfaces\\10-UWP-Solarizr\\10-UWP-Solarizr\\10-UWP-Solarizr.csproj",
+      "projectUniqueName": "C:\\Users\\lzumarraga\\OneDrive\\2018-19\\REPOSITORIOS\\SolarizerUWP\\10-UWP-Solarizr\\10-UWP-Solarizr\\10-UWP-Solarizr.csproj",
       "projectName": "10-UWP-Solarizr",
-      "projectPath": "C:\\Users\\lzumarraga\\OneDrive\\2018-19\\REPOSITORIOS\\DesarrolloDeInterfaces\\10-UWP-Solarizr\\10-UWP-Solarizr\\10-UWP-Solarizr.csproj",
+      "projectPath": "C:\\Users\\lzumarraga\\OneDrive\\2018-19\\REPOSITORIOS\\SolarizerUWP\\10-UWP-Solarizr\\10-UWP-Solarizr\\10-UWP-Solarizr.csproj",
       "packagesPath": "C:\\Users\\lzumarraga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lzumarraga\\OneDrive\\2018-19\\REPOSITORIOS\\DesarrolloDeInterfaces\\10-UWP-Solarizr\\10-UWP-Solarizr\\obj\\",
+      "outputPath": "C:\\Users\\lzumarraga\\OneDrive\\2018-19\\REPOSITORIOS\\SolarizerUWP\\10-UWP-Solarizr\\10-UWP-Solarizr\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
