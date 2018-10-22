@@ -102,6 +102,12 @@
     <Compile Include="Views\chatView.xaml.cs">
       <DependentUpon>chatView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\index.xaml.cs">
+      <DependentUpon>index.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\messages.xaml.cs">
+      <DependentUpon>messages.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -110,6 +116,7 @@
     <None Include="10-UWP-Solarizr_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Logos\indexlogo.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -129,6 +136,14 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\chatView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\index.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\messages.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
