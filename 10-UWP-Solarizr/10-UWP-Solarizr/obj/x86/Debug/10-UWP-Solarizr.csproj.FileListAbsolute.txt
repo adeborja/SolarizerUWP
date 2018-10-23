@@ -717,3 +717,4 @@ C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solari
 C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\qualifiers.txt.intermediate
 C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\ProjectArchitectures.txt
+C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\10-UWP-Solarizr.csprojAssemblyReference.cache

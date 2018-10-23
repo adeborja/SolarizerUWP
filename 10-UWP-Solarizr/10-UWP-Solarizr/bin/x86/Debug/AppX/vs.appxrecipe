@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-23T17:24:01.517</Modified>
+      <Modified>2018-10-23T18:14:45.128</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\10-UWP-Solarizr.exe">
       <PackagePath>entrypoint\10-UWP-Solarizr.exe</PackagePath>
-      <Modified>2018-10-23T17:24:01.067</Modified>
+      <Modified>2018-10-23T18:14:44.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -497,7 +497,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\Assets\right-arrow.png">
       <PackagePath>Assets\right-arrow.png</PackagePath>
-      <Modified>2018-10-23T17:11:30.071</Modified>
+      <Modified>2018-10-23T17:30:31.879</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -543,35 +543,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\10-UWP-Solarizr.xr.xml">
       <PackagePath>10-UWP-Solarizr.xr.xml</PackagePath>
-      <Modified>2018-10-23T17:20:29.314</Modified>
+      <Modified>2018-10-23T18:07:32.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-10-23T17:24:00.861</Modified>
+      <Modified>2018-10-23T18:14:44.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-10-23T17:24:00.862</Modified>
+      <Modified>2018-10-23T18:14:44.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\agendaView.xbf">
       <PackagePath>Views\agendaView.xbf</PackagePath>
-      <Modified>2018-10-23T17:24:00.864</Modified>
+      <Modified>2018-10-23T18:14:44.398</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\chatView.xbf">
       <PackagePath>Views\chatView.xbf</PackagePath>
-      <Modified>2018-10-23T17:24:00.865</Modified>
+      <Modified>2018-10-23T18:14:44.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\citaView.xbf">
       <PackagePath>Views\citaView.xbf</PackagePath>
-      <Modified>2018-10-23T17:24:00.866</Modified>
+      <Modified>2018-10-23T18:14:44.400</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\index.xbf">
       <PackagePath>Views\index.xbf</PackagePath>
-      <Modified>2018-10-23T17:24:00.867</Modified>
+      <Modified>2018-10-23T18:14:44.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\messages.xbf">
       <PackagePath>Views\messages.xbf</PackagePath>
-      <Modified>2018-10-23T17:24:00.869</Modified>
+      <Modified>2018-10-23T18:14:44.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -580,11 +580,11 @@
     <AppxPackagedFile Include="C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-23T17:20:31.083</Modified>
+      <Modified>2018-10-23T17:31:59.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Core\10-UWP-Solarizr.exe">
       <PackagePath>10-UWP-Solarizr.exe</PackagePath>
-      <Modified>2018-10-23T17:24:01.511</Modified>
+      <Modified>2018-10-23T18:14:45.122</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
