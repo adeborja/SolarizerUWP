@@ -1,4 +1,4 @@
-WinMetadata\Windows.winmd
+Assets\flechaDerecha.png
 Assets\LockScreenLogo.scale-200.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
@@ -9,8 +9,11 @@ Assets\Wide310x150Logo.scale-200.png
 10-UWP-Solarizr.xr.xml
 App.xbf
 MainPage.xbf
+Views\agendaView.xbf
 Views\chatView.xbf
+Views\citaView.xbf
 Views\index.xbf
 Views\messages.xbf
 Images\Logos\indexlogo.jpg
 Properties\Default.rd.xml
+WinMetadata\Windows.winmd

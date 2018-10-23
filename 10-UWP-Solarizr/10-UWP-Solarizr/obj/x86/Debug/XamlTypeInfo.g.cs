@@ -189,21 +189,25 @@ namespace _10_UWP_Solarizr._0_UWP_Solarizr_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[6];
+            _typeNameTable = new string[8];
             _typeNameTable[0] = "_10_UWP_Solarizr.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "_10_UWP_Solarizr.Views.chatView";
-            _typeNameTable[4] = "_10_UWP_Solarizr.Views.index";
-            _typeNameTable[5] = "_10_UWP_Solarizr.Views.messages";
+            _typeNameTable[3] = "_10_UWP_Solarizr.Views.agendaView";
+            _typeNameTable[4] = "_10_UWP_Solarizr.Views.chatView";
+            _typeNameTable[5] = "_10_UWP_Solarizr.Views.citaView";
+            _typeNameTable[6] = "_10_UWP_Solarizr.Views.index";
+            _typeNameTable[7] = "_10_UWP_Solarizr.Views.messages";
 
-            _typeTable = new global::System.Type[6];
+            _typeTable = new global::System.Type[8];
             _typeTable[0] = typeof(global::_10_UWP_Solarizr.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::_10_UWP_Solarizr.Views.chatView);
-            _typeTable[4] = typeof(global::_10_UWP_Solarizr.Views.index);
-            _typeTable[5] = typeof(global::_10_UWP_Solarizr.Views.messages);
+            _typeTable[3] = typeof(global::_10_UWP_Solarizr.Views.agendaView);
+            _typeTable[4] = typeof(global::_10_UWP_Solarizr.Views.chatView);
+            _typeTable[5] = typeof(global::_10_UWP_Solarizr.Views.citaView);
+            _typeTable[6] = typeof(global::_10_UWP_Solarizr.Views.index);
+            _typeTable[7] = typeof(global::_10_UWP_Solarizr.Views.messages);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -239,9 +243,11 @@ namespace _10_UWP_Solarizr._0_UWP_Solarizr_XamlTypeInfo
         }
 
         private object Activate_0_MainPage() { return new global::_10_UWP_Solarizr.MainPage(); }
-        private object Activate_3_chatView() { return new global::_10_UWP_Solarizr.Views.chatView(); }
-        private object Activate_4_index() { return new global::_10_UWP_Solarizr.Views.index(); }
-        private object Activate_5_messages() { return new global::_10_UWP_Solarizr.Views.messages(); }
+        private object Activate_3_agendaView() { return new global::_10_UWP_Solarizr.Views.agendaView(); }
+        private object Activate_4_chatView() { return new global::_10_UWP_Solarizr.Views.chatView(); }
+        private object Activate_5_citaView() { return new global::_10_UWP_Solarizr.Views.citaView(); }
+        private object Activate_6_index() { return new global::_10_UWP_Solarizr.Views.index(); }
+        private object Activate_7_messages() { return new global::_10_UWP_Solarizr.Views.messages(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -268,23 +274,37 @@ namespace _10_UWP_Solarizr._0_UWP_Solarizr_XamlTypeInfo
                 xamlType = new global::_10_UWP_Solarizr._0_UWP_Solarizr_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  _10_UWP_Solarizr.Views.chatView
+            case 3:   //  _10_UWP_Solarizr.Views.agendaView
                 userType = new global::_10_UWP_Solarizr._0_UWP_Solarizr_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_chatView;
+                userType.Activator = Activate_3_agendaView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  _10_UWP_Solarizr.Views.index
+            case 4:   //  _10_UWP_Solarizr.Views.chatView
                 userType = new global::_10_UWP_Solarizr._0_UWP_Solarizr_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_index;
+                userType.Activator = Activate_4_chatView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  _10_UWP_Solarizr.Views.messages
+            case 5:   //  _10_UWP_Solarizr.Views.citaView
                 userType = new global::_10_UWP_Solarizr._0_UWP_Solarizr_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_messages;
+                userType.Activator = Activate_5_citaView;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  _10_UWP_Solarizr.Views.index
+                userType = new global::_10_UWP_Solarizr._0_UWP_Solarizr_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_index;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  _10_UWP_Solarizr.Views.messages
+                userType = new global::_10_UWP_Solarizr._0_UWP_Solarizr_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_7_messages;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
