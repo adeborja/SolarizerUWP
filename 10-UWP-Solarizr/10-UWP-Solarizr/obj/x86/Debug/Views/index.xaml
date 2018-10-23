@@ -20,34 +20,34 @@
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
         
         <!--imagen de logo-->
         <Image 
             Grid.Column="2"
-            Grid.Row="3"
-            Grid.RowSpan="3"
+            Grid.Row="1"
+            Grid.RowSpan="4"
             Source="../Images/Logos/indexlogo.jpg"/>
 
         <!--Texto nombre de usuario-->
         <TextBlock
             Grid.Column="2"
-            Grid.Row="7"
+            Grid.Row="6"
             Text="Nombre de usuario"
             VerticalAlignment="Bottom"
             Margin="5,0,0,5"
@@ -56,9 +56,10 @@
         <!--caja nombre de usuario-->
         <TextBox
             Grid.Column="2"
-            Grid.Row="8"
+            Grid.Row="7"
             Text=""
             VerticalAlignment="Top"
+            MinHeight="32"
             />
 
         <!--Width="288"
@@ -68,16 +69,17 @@
         <!--Texto contraseña-->
         <TextBlock
             Grid.Column="2"
-            Grid.Row="8"
+            Grid.Row="9"
             Text="Contraseña"
             VerticalAlignment="Bottom"
             Margin="5,0,0,5"
+            
             />
 
         <!--caja contraseña-->
         <PasswordBox
             Grid.Column="2"
-            Grid.Row="9"
+            Grid.Row="10"
             VerticalAlignment="Top"
             />
         
@@ -85,7 +87,7 @@
         <Button
             Content="ENTRAR"
             Grid.Column="2"
-            Grid.Row="11"
+            Grid.Row="12"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"
             Background="MediumSeaGreen"
@@ -98,16 +100,17 @@
             Text="El usuario o contraseña introducidos no es valido"
             FontSize="20"
             Foreground="Red"
-            Grid.Column="1"
-            Grid.ColumnSpan="3"
-            Grid.Row="10"
+            Grid.Column="0"
+            Grid.ColumnSpan="5"
+            Grid.Row="11"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"
             />
 
         <!--Texto nombre empresa-->
         <TextBlock
-            Grid.Column="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="5"
             Grid.Row="15"
             Text="Powered by S.A.L. Enterprises"
             HorizontalAlignment="Center"
@@ -116,30 +119,57 @@
             />
 
         <!--Caja mensaje de error usuario-->
-        <TextBlock
+        <!--<TextBlock
             Text="El campo Usuario no puede estar vacio"
             FontSize="20"
             Foreground="Red"
             Grid.Column="3"
             Grid.ColumnSpan="2"
-            Grid.Row="8"
+            Grid.Row="7"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Margin="15,0"
+            
+            />-->
+        <Viewbox
+            Grid.Column="3"
+            Grid.ColumnSpan="2"
+            Grid.Row="7">
+            <TextBlock
+                Text="El campo Usuario no puede estar vacio"
+                FontSize="20"
+                Foreground="Red"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Margin="15,0"
             />
+        </Viewbox>
 
         <!--Caja mensaje de error contraseña-->
-        <TextBlock
+        <!--<TextBlock
             Text="El campo Contraseña no puede estar vacio"
             FontSize="20"
             Foreground="Red"
             Grid.Column="3"
             Grid.ColumnSpan="2"
-            Grid.Row="9"
+            Grid.Row="10"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Margin="15,0"
+            />-->
+        <Viewbox
+            Grid.Column="3"
+            Grid.ColumnSpan="2"
+            Grid.Row="10">
+            <TextBlock
+                Text="El campo Contraseña no puede estar vacio"
+                FontSize="20"
+                Foreground="Red"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Margin="15,0"
             />
+        </Viewbox>
 
     </Grid>
 </Page>

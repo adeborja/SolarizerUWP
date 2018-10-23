@@ -1,1 +1,1 @@
-D:\Ciclo\GitHub\Repositorios\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\10-UWP-Solarizr.csproj;x86
+D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\10-UWP-Solarizr.csproj;x86
