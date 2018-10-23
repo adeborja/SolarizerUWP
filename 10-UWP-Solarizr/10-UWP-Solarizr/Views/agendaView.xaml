@@ -17,8 +17,8 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         
-        <StackPanel Grid.Column="0">
-            
+        <StackPanel Grid.Row="0" Grid.Column="0">
+            <Image Source="Assets/StoreLogo.png" Height="250" Width="250"></Image>
         </StackPanel>
 
         <Grid Grid.Column="1">
@@ -36,25 +36,25 @@
             <RelativePanel Grid.Row="0" Grid.Column="0" Margin="30, 30, 0, 30" VerticalAlignment="Center"> 
                 <TextBlock Name="tbMain1" FontSize="30" Text="Calle Nueva Orleans 12, 1ºF"></TextBlock>
                 <TextBlock Name="tbGray1"  FontSize="20" RelativePanel.AlignLeftWithPanel="True" RelativePanel.LeftOf="apbFlecha1" Text="Secondary line text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam massa quam." Foreground="Gray" TextWrapping="Wrap" RelativePanel.Below="tbMain1"></TextBlock>
-                <Image Name="apbFlecha1" RelativePanel.AlignRightWithPanel="True" Margin="0, 10,30,0" Source="Assets\flechaDerecha.png"></Image>
+                <Image Source="Assets\right-arrow.png" Name="apbFlecha1" RelativePanel.AlignRightWithPanel="True" Margin="0, 10,30,0"  Height="50" Width="50"></Image>
             </RelativePanel>
 
             <RelativePanel Grid.Row="1" Grid.Column="0" Margin="30, 30, 0, 30" VerticalAlignment="Center">
                 <TextBlock Name="tbMain2" FontSize="30" Text="Calle Nueva Orleans 12, 1ºF"></TextBlock>
                 <TextBlock Name="tbGray2"  FontSize="20" RelativePanel.AlignLeftWithPanel="True" RelativePanel.LeftOf="apbFlecha2" Text="Secondary line text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam massa quam." Foreground="Gray" TextWrapping="Wrap" RelativePanel.Below="tbMain2"></TextBlock>
-                <Image Name="apbFlecha2" RelativePanel.AlignRightWithPanel="True" Margin="0, 10,30,0" Source="Assets\flechaDerecha.png"></Image>
+                <Image Name="apbFlecha2" RelativePanel.AlignRightWithPanel="True" Margin="0, 10,30,0" Source="Assets\right-arrow.png" Height="50" Width="50"></Image>
             </RelativePanel>
 
             <RelativePanel Grid.Row="2" Grid.Column="0" Margin="30, 30, 0, 30" VerticalAlignment="Center">
                 <TextBlock Name="tbMain3" FontSize="30" Text="Calle Nueva Orleans 12, 1ºF"></TextBlock>
                 <TextBlock Name="tbGray3"  FontSize="20" RelativePanel.AlignLeftWithPanel="True" RelativePanel.LeftOf="apbFlecha3" Text="Secondary line text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam massa quam." Foreground="Gray" TextWrapping="Wrap" RelativePanel.Below="tbMain3"></TextBlock>
-                <Image Name="apbFlecha3" RelativePanel.AlignRightWithPanel="True" Margin="0, 10,30,0" Source="Assets\flechaDerecha.png"></Image>
+                <Image Name="apbFlecha3" RelativePanel.AlignRightWithPanel="True" Margin="0, 10,30,0" Source="Assets\right-arrow.png" Height="50" Width="50"></Image>
             </RelativePanel>
 
             <RelativePanel Grid.Row="3" Grid.Column="0" Margin="30, 30, 0, 30" VerticalAlignment="Center">
                 <TextBlock Name="tbMain4" FontSize="30" Text="Calle Nueva Orleans 12, 1ºF"></TextBlock>
                 <TextBlock Name="tbGray4"  FontSize="20" RelativePanel.AlignLeftWithPanel="True" RelativePanel.LeftOf="apbFlecha4" Text="Secondary line text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam massa quam." Foreground="Gray" TextWrapping="Wrap" RelativePanel.Below="tbMain4"></TextBlock>
-                <Image Name="apbFlecha4" RelativePanel.AlignRightWithPanel="True" Margin="0, 10,30,0" Source="Assets\flechaDerecha.png"></Image>
+                <Image Name="apbFlecha4" RelativePanel.AlignRightWithPanel="True" Margin="0, 10,30,0" Source="Assets\right-arrow.png" Height="50" Width="50"></Image>
             </RelativePanel>
         </Grid>
     </Grid>
