@@ -20,21 +20,11 @@ namespace _10_UWP_Solarizr.Views
     /// <summary>
     /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
-    public sealed partial class splitView : Page
+    public sealed partial class warnings : Page
     {
-        public splitView()
+        public warnings()
         {
             this.InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            menuSplitView.IsPaneOpen = !menuSplitView.IsPaneOpen;
-        }
-
-        private void SymbolIcon_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(Views.chatView));
         }
     }
 }
