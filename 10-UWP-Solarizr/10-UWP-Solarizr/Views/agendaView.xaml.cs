@@ -38,7 +38,7 @@ namespace _10_UWP_Solarizr.Views
 
 			// Set the map location.
 			MapControl1.Center = cityCenter;
-			MapControl1.ZoomLevel = 12;
+			MapControl1.ZoomLevel = 16;
 			MapControl1.LandmarksVisible = true;
 		}
 

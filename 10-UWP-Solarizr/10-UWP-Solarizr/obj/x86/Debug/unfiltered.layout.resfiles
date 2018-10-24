@@ -1,3 +1,4 @@
+WinMetadata\Windows.winmd
 Assets\LockScreenLogo.scale-200.png
 Assets\right-arrow.png
 Assets\SplashScreen.scale-200.png
@@ -16,4 +17,3 @@ Views\index.xbf
 Views\messages.xbf
 Images\Logos\indexlogo.jpg
 Properties\Default.rd.xml
-WinMetadata\Windows.winmd

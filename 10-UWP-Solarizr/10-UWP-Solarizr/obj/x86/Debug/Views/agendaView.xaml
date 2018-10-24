@@ -9,6 +9,8 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <!--MapServiceToken="Aki1mGMp5qJFbLJ7bNOxWgC6PXmTxDAbjQ20TslJCBqQRDqOTd5E0vT-KwjuuEIj"-->
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
@@ -17,13 +19,13 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        
+
         <RelativePanel Grid.Row="0" Grid.Column="0">
             <Maps:MapControl x:ConnectionId='18'
                 x:Name="MapControl1"            
                 ZoomInteractionMode="GestureAndControl"
                 TiltInteractionMode="GestureAndControl"   
-                MapServiceToken="Aki1mGMp5qJFbLJ7bNOxWgC6PXmTxDAbjQ20TslJCBqQRDqOTd5E0vT-KwjuuEIj"
+                
                 RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" Margin="50"/>
         </RelativePanel>
 

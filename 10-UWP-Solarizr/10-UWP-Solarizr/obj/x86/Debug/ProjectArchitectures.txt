@@ -1,1 +1,1 @@
-C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\10-UWP-Solarizr.csproj;x86
+C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\10-UWP-Solarizr.csproj;x86
