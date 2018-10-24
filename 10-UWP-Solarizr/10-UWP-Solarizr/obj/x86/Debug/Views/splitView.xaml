@@ -1,0 +1,68 @@
+﻿<Page
+    x:Class="_10_UWP_Solarizr.Views.splitView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_10_UWP_Solarizr.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal">
+            <Button x:ConnectionId='3' Margin="0,0,30,0" Width="39"                     >
+                <SymbolIcon Symbol="Document"/>
+            </Button>
+            <TextBlock Text="Titulo de vista" VerticalAlignment="Center"/>
+        </StackPanel>
+    <StackPanel Orientation="Horizontal">
+            <SplitView x:ConnectionId='2' Name="menuSplitView" DisplayMode="CompactOverlay" CompactPaneLength="39" OpenPaneLength="120">
+                <SplitView.Pane>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="30"/>
+                        </Grid.RowDefinitions>
+                        <Button Grid.Row="0">
+                            <StackPanel Orientation="Horizontal" Width="150">
+                                <SymbolIcon Symbol="Home"/>
+                                <TextBlock Text="Inicio" Margin="10,0,0,0"/>
+                            </StackPanel>
+                        </Button>
+                        <Button Grid.Row="1" Margin="0,-1">
+                            <StackPanel Orientation="Horizontal" Width="150">
+                                <SymbolIcon Symbol="Message"/>
+                                <TextBlock Text="Mensajes" Margin="10,0,0,0"/>
+                            </StackPanel>
+                        </Button>
+                        <Button Grid.Row="2" Margin="0,-1">
+                            <StackPanel Orientation="Horizontal" Width="150">
+                                <SymbolIcon Symbol="DisableUpdates"/>
+                                <TextBlock Text="Avisos" Margin="10,0,0,0"/>
+                            </StackPanel>
+                        </Button>
+                        <Button Grid.Row="3" Margin="0,-1">
+                            <StackPanel Orientation="Horizontal" Width="150">
+                                <SymbolIcon Symbol="ContactPresence"/>
+                                <TextBlock Text="Contacto" Margin="10,0,0,0"/>
+                            </StackPanel>
+                        </Button>
+
+                    </Grid>
+                </SplitView.Pane>
+
+                <SplitView.Content>
+                    <StackPanel>
+                        <TextBlock Text="Cuatro"/>
+                        <TextBlock Text="Cinco"/>
+                        <TextBlock Text="Seis"/>
+                    </StackPanel>
+                </SplitView.Content>
+            </SplitView>
+        </StackPanel>
+    </StackPanel>
+</Page>
+

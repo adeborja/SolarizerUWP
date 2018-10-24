@@ -1,1 +1,1 @@
-C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\10-UWP-Solarizr.csproj;x86
+D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\10-UWP-Solarizr.csproj;x86

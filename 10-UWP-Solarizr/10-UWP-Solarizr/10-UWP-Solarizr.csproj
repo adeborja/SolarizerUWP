@@ -114,6 +114,9 @@
     <Compile Include="Views\messages.xaml.cs">
       <DependentUpon>messages.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\splitView.xaml.cs">
+      <DependentUpon>splitView.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -123,10 +126,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\right-arrow.png" />
-    <Content Include="Images\Fotos\tejado1.jpg" />
-    <Content Include="Images\Fotos\tejado2.jpg" />
-    <Content Include="Images\Fotos\tejado3.jpg" />
-    <Content Include="Images\IconosAgenda\right-arrow.png" />
     <Content Include="Images\Logos\indexlogo.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -163,6 +162,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\messages.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\splitView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

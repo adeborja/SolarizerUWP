@@ -189,7 +189,7 @@ namespace _10_UWP_Solarizr._0_UWP_Solarizr_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[8];
+            _typeNameTable = new string[9];
             _typeNameTable[0] = "_10_UWP_Solarizr.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -198,8 +198,9 @@ namespace _10_UWP_Solarizr._0_UWP_Solarizr_XamlTypeInfo
             _typeNameTable[5] = "_10_UWP_Solarizr.Views.citaView";
             _typeNameTable[6] = "_10_UWP_Solarizr.Views.index";
             _typeNameTable[7] = "_10_UWP_Solarizr.Views.messages";
+            _typeNameTable[8] = "_10_UWP_Solarizr.Views.splitView";
 
-            _typeTable = new global::System.Type[8];
+            _typeTable = new global::System.Type[9];
             _typeTable[0] = typeof(global::_10_UWP_Solarizr.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -208,6 +209,7 @@ namespace _10_UWP_Solarizr._0_UWP_Solarizr_XamlTypeInfo
             _typeTable[5] = typeof(global::_10_UWP_Solarizr.Views.citaView);
             _typeTable[6] = typeof(global::_10_UWP_Solarizr.Views.index);
             _typeTable[7] = typeof(global::_10_UWP_Solarizr.Views.messages);
+            _typeTable[8] = typeof(global::_10_UWP_Solarizr.Views.splitView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -248,6 +250,7 @@ namespace _10_UWP_Solarizr._0_UWP_Solarizr_XamlTypeInfo
         private object Activate_5_citaView() { return new global::_10_UWP_Solarizr.Views.citaView(); }
         private object Activate_6_index() { return new global::_10_UWP_Solarizr.Views.index(); }
         private object Activate_7_messages() { return new global::_10_UWP_Solarizr.Views.messages(); }
+        private object Activate_8_splitView() { return new global::_10_UWP_Solarizr.Views.splitView(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -305,6 +308,13 @@ namespace _10_UWP_Solarizr._0_UWP_Solarizr_XamlTypeInfo
             case 7:   //  _10_UWP_Solarizr.Views.messages
                 userType = new global::_10_UWP_Solarizr._0_UWP_Solarizr_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_7_messages;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  _10_UWP_Solarizr.Views.splitView
+                userType = new global::_10_UWP_Solarizr._0_UWP_Solarizr_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_8_splitView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
