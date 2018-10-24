@@ -718,3 +718,18 @@ C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solari
 C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\ProjectArchitectures.txt
 C:\2DAM\DInterfaces\1EVALUACION\Desarrollo-Interfaces\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\10-UWP-Solarizr.csprojAssemblyReference.cache
+D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\Views\agendaView.xaml
+D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\Views\citaView.xaml
+D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\Views\splitView.xaml
+D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\Views\agendaView.xbf
+D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\Views\citaView.xbf
+D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\Views\splitView.xbf
+D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\agendaView.xbf
+D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\citaView.xbf
+D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\splitView.xbf
+D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\Views\agendaView.g.i.cs
+D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\Views\agendaView.g.cs
+D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\Views\citaView.g.i.cs
+D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\Views\citaView.g.cs
+D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\Views\splitView.g.i.cs
+D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\Views\splitView.g.cs

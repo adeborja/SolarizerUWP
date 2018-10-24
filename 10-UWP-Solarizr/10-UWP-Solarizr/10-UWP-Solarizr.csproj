@@ -114,6 +114,9 @@
     <Compile Include="Views\messages.xaml.cs">
       <DependentUpon>messages.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\splitView.xaml.cs">
+      <DependentUpon>splitView.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -159,6 +162,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\messages.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\splitView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
