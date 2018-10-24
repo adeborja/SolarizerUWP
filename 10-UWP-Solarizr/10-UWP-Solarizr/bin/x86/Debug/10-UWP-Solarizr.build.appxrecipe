@@ -373,6 +373,9 @@
     <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Assets\right-arrow.png">
       <PackagePath>Assets\right-arrow.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Images\IconosAgenda\right-arrow.png">
+      <PackagePath>Images\IconosAgenda\right-arrow.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
@@ -399,6 +402,15 @@
     <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Images\Fotos\tejado1.jpg">
+      <PackagePath>Images\Fotos\tejado1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Images\Fotos\tejado2.jpg">
+      <PackagePath>Images\Fotos\tejado2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Images\Fotos\tejado3.jpg">
+      <PackagePath>Images\Fotos\tejado3.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Images\Logos\indexlogo.jpg">
       <PackagePath>Images\Logos\indexlogo.jpg</PackagePath>
