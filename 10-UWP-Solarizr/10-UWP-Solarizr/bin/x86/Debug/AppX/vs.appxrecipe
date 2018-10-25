@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-25T07:46:55.857</Modified>
+      <Modified>2018-10-25T10:27:13.741</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\10-UWP-Solarizr.exe">
       <PackagePath>entrypoint\10-UWP-Solarizr.exe</PackagePath>
-      <Modified>2018-10-25T07:46:52.295</Modified>
+      <Modified>2018-10-25T10:27:12.807</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -551,27 +551,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-10-25T07:46:51.980</Modified>
+      <Modified>2018-10-25T10:27:12.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\contact.xbf">
       <PackagePath>Views\contact.xbf</PackagePath>
-      <Modified>2018-10-25T07:46:51.967</Modified>
+      <Modified>2018-10-25T10:27:12.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\index.xbf">
       <PackagePath>Views\index.xbf</PackagePath>
-      <Modified>2018-10-25T07:46:51.985</Modified>
+      <Modified>2018-10-25T10:27:12.556</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\messages.xbf">
       <PackagePath>Views\messages.xbf</PackagePath>
-      <Modified>2018-10-25T07:46:51.988</Modified>
+      <Modified>2018-10-25T10:27:12.557</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\splitView.xbf">
       <PackagePath>Views\splitView.xbf</PackagePath>
-      <Modified>2018-10-25T07:46:51.990</Modified>
+      <Modified>2018-10-25T10:27:12.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\warnings.xbf">
       <PackagePath>Views\warnings.xbf</PackagePath>
-      <Modified>2018-10-25T07:46:51.993</Modified>
+      <Modified>2018-10-25T10:27:12.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -584,7 +584,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Core\10-UWP-Solarizr.exe">
       <PackagePath>10-UWP-Solarizr.exe</PackagePath>
-      <Modified>2018-10-25T07:46:55.832</Modified>
+      <Modified>2018-10-25T10:27:13.715</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

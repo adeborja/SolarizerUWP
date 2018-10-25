@@ -24,11 +24,6 @@ namespace _10_UWP_Solarizr.Views {
             this.InitializeComponent();
         }
 
-        //protected override void OnNavigatedTo(NavigationEventArgs e)
-        //{
-
-        //}
-
         #region Acciones de botones del splitview
 
         //boton expandir listview
@@ -65,15 +60,19 @@ namespace _10_UWP_Solarizr.Views {
         private void IconsListBox_SelectionChanged(object sender, SelectionChangedEventArgs e) {
             if (HomeListBoxItem.IsSelected) {
                 ResultTextBlock.Text = "Home";
+                btnHome_Click(sender, e);
             } else {
                 if (MensaggesListBoxItem.IsSelected) {
                     ResultTextBlock.Text = "Mensajes";
+                    btnMensajes_Click(sender, e);
                 } else {
                     if (WarningListBoxItem.IsSelected) {
                         ResultTextBlock.Text = "Alertas";
+                        btnAvisos_Click(sender, e);
                     } else {
                         if (ContactListBoxItem.IsSelected) {
                             ResultTextBlock.Text = "Contacto";
+                            btnContactos_Click(sender, e);
                         }
                     }
                 }
