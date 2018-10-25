@@ -27501,15 +27501,20 @@
   },
   "packageFolders": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\adeborja\\.nuget\\packages\\": {},
 =======
     "C:\\Users\\sgarcia\\.nuget\\packages\\": {},
 >>>>>>> 6ff0842f16acb89b9905bca16f495ac58bfe5acf
+=======
+    "C:\\Users\\Luis Z\\.nuget\\packages\\": {},
+>>>>>>> 2fe773f419ae5b9915ca2df6194f6e9406c5e7b9
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "projectUniqueName": "D:\\Github Angel\\SolarizerUWP\\10-UWP-Solarizr\\10-UWP-Solarizr\\10-UWP-Solarizr.csproj",
       "projectName": "10-UWP-Solarizr",
@@ -27523,6 +27528,13 @@
       "packagesPath": "C:\\Users\\sgarcia\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\sgarcia\\Desktop\\2DAM\\Desarrollo Interfaces\\010-SolarizerApp-WU\\10-UWP-Solarizr\\10-UWP-Solarizr\\obj\\",
 >>>>>>> 6ff0842f16acb89b9905bca16f495ac58bfe5acf
+=======
+      "projectUniqueName": "E:\\Documentos\\REPOSITORIOS 2018-19\\SolarizerUWP\\10-UWP-Solarizr\\10-UWP-Solarizr\\10-UWP-Solarizr.csproj",
+      "projectName": "10-UWP-Solarizr",
+      "projectPath": "E:\\Documentos\\REPOSITORIOS 2018-19\\SolarizerUWP\\10-UWP-Solarizr\\10-UWP-Solarizr\\10-UWP-Solarizr.csproj",
+      "packagesPath": "C:\\Users\\Luis Z\\.nuget\\packages\\",
+      "outputPath": "E:\\Documentos\\REPOSITORIOS 2018-19\\SolarizerUWP\\10-UWP-Solarizr\\10-UWP-Solarizr\\obj\\",
+>>>>>>> 2fe773f419ae5b9915ca2df6194f6e9406c5e7b9
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -27530,10 +27542,14 @@
       ],
       "configFilePaths": [
 <<<<<<< HEAD
+<<<<<<< HEAD
         "C:\\Users\\adeborja\\AppData\\Roaming\\NuGet\\NuGet.Config",
 =======
         "C:\\Users\\sgarcia\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> 6ff0842f16acb89b9905bca16f495ac58bfe5acf
+=======
+        "C:\\Users\\Luis Z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 2fe773f419ae5b9915ca2df6194f6e9406c5e7b9
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

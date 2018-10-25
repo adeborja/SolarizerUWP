@@ -117,6 +117,12 @@
     <Compile Include="Views\splitView.xaml.cs">
       <DependentUpon>splitView.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="Views\warnings.xaml.cs">
+      <DependentUpon>warnings.xaml</DependentUpon>
+    </Compile>
+>>>>>>> 2fe773f419ae5b9915ca2df6194f6e9406c5e7b9
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -126,10 +132,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\right-arrow.png" />
-    <Content Include="Images\Fotos\tejado1.jpg" />
-    <Content Include="Images\Fotos\tejado2.jpg" />
-    <Content Include="Images\Fotos\tejado3.jpg" />
-    <Content Include="Images\IconosAgenda\right-arrow.png" />
     <Content Include="Images\Logos\indexlogo.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -173,6 +175,13 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< HEAD
+=======
+    <Page Include="Views\warnings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+>>>>>>> 2fe773f419ae5b9915ca2df6194f6e9406c5e7b9
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">

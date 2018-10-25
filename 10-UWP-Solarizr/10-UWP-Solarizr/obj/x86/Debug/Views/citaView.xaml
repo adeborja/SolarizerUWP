@@ -5,43 +5,11 @@
     xmlns:local="using:_10_UWP_Solarizr.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-        </Grid.ColumnDefinitions>
 
-        <Grid Grid.Row="0" Grid.Column="0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="2*"></RowDefinition>
-                <RowDefinition></RowDefinition>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-
-            <RelativePanel Grid.Row="0" Grid.Column="0">
-                <TextBlock x:ConnectionId='2' Name="tbTop" Margin="50, 40, 0, 0" Text="Calle Nueva Orleans 12, 1ºF" FontSize="18"></TextBlock>
-                <TextBlock x:ConnectionId='3' Name="tbBelowTop" Margin="50, 0, 0, 10" Text="Sevilla 41005, Spain" FontSize="12" Foreground="Gray" RelativePanel.Below="tbTop"></TextBlock>
-                <Maps:MapControl x:ConnectionId='4'
-                x:Name="MapControl1"            
-                ZoomInteractionMode="GestureAndControl"
-                TiltInteractionMode="GestureAndControl"   
-                RelativePanel.AlignBottomWithPanel="True" RelativePanel.Below="tbBelowTop" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" Margin="30,10,30,30"/>
-            </RelativePanel>
-            <RelativePanel Grid.Row="1">
-                <Image Source="../Images/Fotos/tejado1.jpg" Height="100" Margin="39,60,-14,-60" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
-                <Image Source="../Images/Fotos/tejado2.jpg" Height="100" Margin="507,60,-467,-60"/>
-                <Image Source="../Images/Fotos/tejado3.jpg" Margin="253,30,62,130"/>
-            </RelativePanel>
-        </Grid>
     </Grid>
 </Page>
 

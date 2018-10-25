@@ -9,6 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Button HorizontalAlignment="Left" Margin="686,334,0,0" VerticalAlignment="Top"
+                Content="Hazme clic puto" Click="Button_Click"/>
 
     </Grid>
 </Page>

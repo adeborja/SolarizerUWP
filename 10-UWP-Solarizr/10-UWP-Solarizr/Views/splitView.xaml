@@ -38,7 +38,11 @@
                         </Button>
                         <Button Grid.Row="1" Margin="0,-1">
                             <StackPanel Orientation="Horizontal" Width="150">
+<<<<<<< HEAD
                                 <SymbolIcon Symbol="Message"/>
+=======
+                                <SymbolIcon Symbol="Message" Tapped="SymbolIcon_Tapped"/>
+>>>>>>> 2fe773f419ae5b9915ca2df6194f6e9406c5e7b9
                                 <TextBlock Text="Mensajes" Margin="10,0,0,0"/>
                             </StackPanel>
                         </Button>

@@ -9,8 +9,6 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <!--MapServiceToken="Aki1mGMp5qJFbLJ7bNOxWgC6PXmTxDAbjQ20TslJCBqQRDqOTd5E0vT-KwjuuEIj"-->
-
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
@@ -19,14 +17,14 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-
+        
         <RelativePanel Grid.Row="0" Grid.Column="0">
-            <TextBlock x:ConnectionId='18' Name="tbTop" Margin="50, 40, 0, 10" Text="Esta es tu agenda de hoy:" FontSize="18"></TextBlock>
-            <Maps:MapControl x:ConnectionId='19'
+            <Maps:MapControl x:ConnectionId='18'
                 x:Name="MapControl1"            
                 ZoomInteractionMode="GestureAndControl"
                 TiltInteractionMode="GestureAndControl"   
-                RelativePanel.AlignBottomWithPanel="True" RelativePanel.Below="tbTop" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" Margin="30,10,30,30"/>
+                MapServiceToken="Aki1mGMp5qJFbLJ7bNOxWgC6PXmTxDAbjQ20TslJCBqQRDqOTd5E0vT-KwjuuEIj"
+                RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" Margin="50"/>
         </RelativePanel>
 
         <Grid Grid.Column="1">
@@ -41,28 +39,29 @@
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
 
-            <RelativePanel x:ConnectionId='2' Name="rpText1" Grid.Row="0" Grid.Column="0" Margin="30, 30, 30, 30" VerticalAlignment="Center"                                        > 
+            <RelativePanel x:ConnectionId='2' Name="rpText1" Grid.Row="0" Grid.Column="0" Margin="30, 30, 0, 30" VerticalAlignment="Center"                                        > 
                 <TextBlock x:ConnectionId='15' Name="tbMain1" FontSize="20" Text="Calle Nueva Orleans 12, 1ºF"></TextBlock>
                 <TextBlock x:ConnectionId='16' Name="tbGray1"  FontSize="15" RelativePanel.AlignLeftWithPanel="True" RelativePanel.LeftOf="apbFlecha1" Text="Secondary line text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam massa quam." Foreground="Gray" TextWrapping="Wrap" RelativePanel.Below="tbMain1"></TextBlock>
-                <Image x:ConnectionId='17' Source="../Images/IconosAgenda/right-arrow.png" Name="apbFlecha1" RelativePanel.AlignRightWithPanel="True" Margin="10, 10,0,0"  Height="40" Width="40"></Image>
+                <AppBarButton x:ConnectionId='17' Icon="Edit" Name="apbFlecha1" RelativePanel.AlignRightWithPanel="True" Margin="0, 10,30,0"  Height="50" Width="50"></AppBarButton>
             </RelativePanel>
 
-            <RelativePanel x:ConnectionId='3' Name="rpText2" Grid.Row="1" Grid.Column="0" Margin="30, 30, 30, 30" VerticalAlignment="Center"                                        >
-                <TextBlock x:ConnectionId='12' Name="tbMain2" FontSize="20" Text="Avenida Circular 45, 3ºA"></TextBlock>
+            <RelativePanel x:ConnectionId='3' Name="rpText2" Grid.Row="1" Grid.Column="0" Margin="30, 30, 0, 30" VerticalAlignment="Center"                                        >
+                <TextBlock x:ConnectionId='12' Name="tbMain2" FontSize="20" Text="Avenida Circular 45"></TextBlock>
                 <TextBlock x:ConnectionId='13' Name="tbGray2"  FontSize="15" RelativePanel.AlignLeftWithPanel="True" RelativePanel.LeftOf="apbFlecha2" Text="Secondary line text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam massa quam." Foreground="Gray" TextWrapping="Wrap" RelativePanel.Below="tbMain2"></TextBlock>
-                <Image x:ConnectionId='14' Source="../Images/IconosAgenda/right-arrow.png" Name="apbFlecha2" RelativePanel.AlignRightWithPanel="True" Margin="0, 10,0,0"  Height="40" Width="40"></Image>
+                <AppBarButton x:ConnectionId='14' Icon="Edit" Name="apbFlecha2" RelativePanel.AlignRightWithPanel="True" Margin="0, 10,30,0"  Height="50" Width="50"></AppBarButton>
             </RelativePanel>
 
-            <RelativePanel x:ConnectionId='4' Name="rpText3" Grid.Row="2" Grid.Column="0" Margin="30, 30, 30, 30" VerticalAlignment="Center"                                        >
-                <TextBlock x:ConnectionId='9' Name="tbMain3" FontSize="20" Text="Calle Super Nova 12, 5ºD"></TextBlock>
+            <RelativePanel x:ConnectionId='4' Name="rpText3" Grid.Row="2" Grid.Column="0" Margin="30, 30, 0, 30" VerticalAlignment="Center"                                        >
+                <TextBlock x:ConnectionId='9' Name="tbMain3" FontSize="20" Text="Calle Super Nova 12"></TextBlock>
                 <TextBlock x:ConnectionId='10' Name="tbGray3"  FontSize="15" RelativePanel.AlignLeftWithPanel="True" RelativePanel.LeftOf="apbFlecha3" Text="Secondary line text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam massa quam." Foreground="Gray" TextWrapping="Wrap" RelativePanel.Below="tbMain3"></TextBlock>
-                <Image x:ConnectionId='11' Source="../Images/IconosAgenda/right-arrow.png" Name="apbFlecha3" RelativePanel.AlignRightWithPanel="True" Margin="0, 10,0,0"  Height="40" Width="40"></Image>
+                <AppBarButton x:ConnectionId='11' Icon="Edit" Name="apbFlecha3" RelativePanel.AlignRightWithPanel="True" Margin="0, 10,30,0"  Height="50" Width="50"></AppBarButton>
             </RelativePanel>
 
-            <RelativePanel x:ConnectionId='5' Name="rpText4" Grid.Row="3" Grid.Column="0" Margin="30, 30, 30, 30" VerticalAlignment="Center"                                        >
-                <TextBlock x:ConnectionId='6' Name="tbMain4" FontSize="20" Text="Calle Asfaltada 32, Bajo B"></TextBlock>
+            <RelativePanel x:ConnectionId='5' Name="rpText4" Grid.Row="3" Grid.Column="0" Margin="30, 30, 0, 30" VerticalAlignment="Center"                                        >
+                <TextBlock x:ConnectionId='6' Name="tbMain4" FontSize="20" Text="Calle Asfaltada 32"></TextBlock>
                 <TextBlock x:ConnectionId='7' Name="tbGray4"  FontSize="15" RelativePanel.AlignLeftWithPanel="True" RelativePanel.LeftOf="apbFlecha4" Text="Secondary line text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam massa quam." Foreground="Gray" TextWrapping="Wrap" RelativePanel.Below="tbMain4"></TextBlock>
-                <Image x:ConnectionId='8' Source="../Images/IconosAgenda/right-arrow.png" Name="apbFlecha4" RelativePanel.AlignRightWithPanel="True" Margin="0, 10,0,0"  Height="40" Width="40"></Image>
+                <!--<Image Name="apbFlecha4" RelativePanel.AlignRightWithPanel="True" Margin="0, 10,30,0" Source="Assets\right-arrow.png" Height="50" Width="50"></Image>-->
+                <AppBarButton x:ConnectionId='8' Icon="Edit" Name="apbFlecha4" RelativePanel.AlignRightWithPanel="True" Margin="0, 10,30,0"  Height="50" Width="50"></AppBarButton>
             </RelativePanel>
             
         </Grid>
