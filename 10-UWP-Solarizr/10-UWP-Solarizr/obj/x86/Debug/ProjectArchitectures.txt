@@ -1,1 +1,1 @@
-C:\Users\adeborja\Desktop\10-UWP-Solarizr\10-UWP-Solarizr\10-UWP-Solarizr.csproj;x86
+C:\Users\lzumarraga\OneDrive\2018-19\REPOSITORIOS\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\10-UWP-Solarizr.csproj;x86

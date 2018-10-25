@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+<!--
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
@@ -16,8 +16,9 @@
         <Grid Grid.Row="0" Grid.Column="0" Background="LightGray">
             <TextBlock Text="Titulo de vista" VerticalAlignment="Center" HorizontalAlignment="Center"/>
         </Grid>
-        <Button Margin="0,0,30,0" Width="39" Height="39" Click="Button_Click" Grid.Row="0" Grid.Column="0" Background="LightGray">
-            <SymbolIcon Symbol="Document"/>
+        <Button Margin="0,0,30,0" Width="39" Height="39" 
+                Click="Button_Click" Grid.Row="0" Grid.Column="0" Background="LightGray"
+                FontFamily="Segoe MDL2 Assets" Content="&#xE700;" FontSize="36">
         </Button>
         
         <SplitView Name="menuSplitView"
@@ -40,15 +41,15 @@
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
 
-                    <!--Boton Home-->
+                    Boton Home
                     <Button Name="btnHome" Click="btnHome_Click" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center">
-                        <StackPanel Orientation="Horizontal" Width="150">
-                            <SymbolIcon Symbol="Home"/>
+                        <StackPanel Orientation="Horizontal" Width="150" >
+                            <SymbolIcon Symbol="Home" HorizontalAlignment="Stretch" Height="18" Margin="0,0,0,0" VerticalAlignment="Top"/>
                             <TextBlock Text="Inicio" Margin="10,0,0,0"/>
                         </StackPanel>
                     </Button>
 
-                    <!--Boton Mensajes-->
+                    Boton Mensajes
                     <Button Name="btnMensajes" Grid.Row="1" Margin="0,0,0,0" Click="btnMensajes_Click" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <StackPanel Orientation="Horizontal" Width="150">
                             <SymbolIcon Symbol="Message"/>
@@ -56,7 +57,7 @@
                         </StackPanel>
                     </Button>
 
-                    <!--Boton Avisos-->
+                    Boton Avisos
                     <Button Grid.Row="2" Margin="0,-1,0,-1" Name="btnAvisos" Click="btnAvisos_Click" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <StackPanel Orientation="Horizontal" Width="150">
                             <SymbolIcon Symbol="DisableUpdates"/>
@@ -64,7 +65,7 @@
                         </StackPanel>
                     </Button>
 
-                    <!--Boton Contacto-->
+                    Boton Contacto
                     <Button Grid.Row="3" Margin="0,-1,0,-1" Name="btnContactos" Click="btnContactos_Click" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <StackPanel Orientation="Horizontal" Width="150">
                             <SymbolIcon Symbol="ContactPresence"/>
@@ -76,7 +77,7 @@
             </SplitView.Pane>
 
             <SplitView.Content>
-                <!--Aqui va el contenido de cada vista-->
+                Aqui va el contenido de cada vista
                 <TextBlock 
                         Text="Borrar cuando se introduzca una vista" 
                         HorizontalAlignment="Center" 
@@ -84,5 +85,61 @@
             </SplitView.Content>
         </SplitView>
 
+    </Grid>-->
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <RelativePanel>
+            <Button Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" FontSize="30" Click="HamburgerButton_Click" />
+        </RelativePanel>
+        <SplitView Name="MySplitView" 
+                   Grid.Row="1" 
+                   DisplayMode="CompactOverlay" 
+                   OpenPaneLength="200" 
+                   CompactPaneLength="50" 
+                   HorizontalAlignment="Left">
+            <SplitView.Pane>
+                <ListBox SelectionMode="Single" 
+                         Name="IconsListBox" 
+                         SelectionChanged="IconsListBox_SelectionChanged">
+                    <ListBoxItem Name="HomeListBoxItem">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xE80F;" />
+                            <TextBlock Text="Inicio" FontSize="22" Margin="20,0,0,0" />
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem Name="MensaggesListBoxItem">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xE715;" />
+                            <TextBlock Text="Mensajes" FontSize="22" Margin="20,0,0,0" />
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem Name="WarningListBoxItem">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xE8C9;" />
+                            <TextBlock Text="Alertas" FontSize="22" Margin="20,0,0,0" />
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem Name="ContactListBoxItem">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="30" Text="&#xE8D4;" />
+                            <TextBlock Text="Contacto" FontSize="22" Margin="20,0,0,0" />
+                        </StackPanel>
+                    </ListBoxItem>
+
+                </ListBox>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <TextBlock Name="ResultTextBlock" />
+            </SplitView.Content>
+        </SplitView>
+
     </Grid>
+
 </Page>

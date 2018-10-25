@@ -15,15 +15,12 @@ using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
 
-namespace _10_UWP_Solarizr.Views
-{
+namespace _10_UWP_Solarizr.Views {
     /// <summary>
     /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
-    public sealed partial class splitView : Page
-    {
-        public splitView()
-        {
+    public sealed partial class splitView : Page {
+        public splitView() {
             this.InitializeComponent();
         }
 
@@ -34,36 +31,54 @@ namespace _10_UWP_Solarizr.Views
 
         #region Acciones de botones del splitview
 
-            //boton expandir listview
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            menuSplitView.IsPaneOpen = !menuSplitView.IsPaneOpen;
+        //boton expandir listview
+        private void Button_Click(object sender, RoutedEventArgs e) {
+            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
         }
 
         //boton home
-        private void btnHome_Click(object sender, RoutedEventArgs e)
-        {
+        private void btnHome_Click(object sender, RoutedEventArgs e) {
             //this.Frame.Navigate(typeof(home));
         }
 
         //boton mensajes
-        private void btnMensajes_Click(object sender, RoutedEventArgs e)
-        {
+        private void btnMensajes_Click(object sender, RoutedEventArgs e) {
             this.Frame.Navigate(typeof(messages));
         }
-        
+
         //boton avisos
-        private void btnAvisos_Click(object sender, RoutedEventArgs e)
-        {
+        private void btnAvisos_Click(object sender, RoutedEventArgs e) {
             this.Frame.Navigate(typeof(warnings));
         }
 
         //boton contactos
-        private void btnContactos_Click(object sender, RoutedEventArgs e)
-        {
+        private void btnContactos_Click(object sender, RoutedEventArgs e) {
             this.Frame.Navigate(typeof(contact));
         }
 
         #endregion
+
+        private void HamburgerButton_Click(object sender, RoutedEventArgs e) {
+            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
+        }
+
+        private void IconsListBox_SelectionChanged(object sender, SelectionChangedEventArgs e) {
+            if (HomeListBoxItem.IsSelected) {
+                ResultTextBlock.Text = "Home";
+            } else {
+                if (MensaggesListBoxItem.IsSelected) {
+                    ResultTextBlock.Text = "Mensajes";
+                } else {
+                    if (WarningListBoxItem.IsSelected) {
+                        ResultTextBlock.Text = "Alertas";
+                    } else {
+                        if (ContactListBoxItem.IsSelected) {
+                            ResultTextBlock.Text = "Contacto";
+                        }
+                    }
+                }
+            }
+        }
     }
 }
+
