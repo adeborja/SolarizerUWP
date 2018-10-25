@@ -1,8 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
+<<<<<<< HEAD
     <Machine>107-11</Machine>
     <WindowsUser>adeborja</WindowsUser>
+=======
+    <Machine>107-13</Machine>
+    <WindowsUser>sgarcia</WindowsUser>
+>>>>>>> 6ff0842f16acb89b9905bca16f495ac58bfe5acf
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +15,11 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>20a97af1-acd3-4b02-b7fd-20b502902a4d</PackageIdentityName>
     <PackageIdentityPublisher>CN=lzumarraga</PackageIdentityPublisher>
+<<<<<<< HEAD
     <IntermediateOutputPath>D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\</IntermediateOutputPath>
+=======
+    <IntermediateOutputPath>C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\obj\x86\Debug\</IntermediateOutputPath>
+>>>>>>> 6ff0842f16acb89b9905bca16f495ac58bfe5acf
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +27,11 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+<<<<<<< HEAD
     <LayoutDir>D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\AppX</LayoutDir>
+=======
+    <LayoutDir>C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\AppX</LayoutDir>
+>>>>>>> 6ff0842f16acb89b9905bca16f495ac58bfe5acf
     <RegisteredManifestChecksum>9DC3E78234130129E0D8A4056B264FE35330EC244F91260693BC00F5CD14DC6C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>20a97af1-acd3-4b02-b7fd-20b502902a4d_1.0.0.0_x86__rn34gfzp76spr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>20a97af1-acd3-4b02-b7fd-20b502902a4d_rn34gfzp76spr!App</RegisteredUserModeAppID>
@@ -28,6 +41,7 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <AppXManifest Include="D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -38,6 +52,18 @@
     <AppxPackagedFile Include="D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\10-UWP-Solarizr.exe">
       <PackagePath>entrypoint\10-UWP-Solarizr.exe</PackagePath>
       <Modified>2018-10-24T12:37:08.398</Modified>
+=======
+    <AppXManifest Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-24T12:32:28.920</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\10-UWP-Solarizr.exe">
+      <PackagePath>entrypoint\10-UWP-Solarizr.exe</PackagePath>
+      <Modified>2018-10-24T12:32:28.434</Modified>
+>>>>>>> 6ff0842f16acb89b9905bca16f495ac58bfe5acf
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -295,7 +321,11 @@
       <PackagePath>System.Linq.Queryable.dll</PackagePath>
       <Modified>2016-06-11T21:13:58.000</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.http\4.1.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
+=======
+    <AppxPackagedFile Include="C:\Users\sgarcia\.nuget\packages\system.net.http\4.1.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
+>>>>>>> 6ff0842f16acb89b9905bca16f495ac58bfe5acf
       <PackagePath>System.Net.Http.dll</PackagePath>
       <Modified>2016-06-11T21:13:58.000</Modified>
     </AppxPackagedFile>
@@ -495,6 +525,7 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T21:15:04.000</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\Assets\right-arrow.png">
       <PackagePath>Assets\right-arrow.png</PackagePath>
       <Modified>2018-10-24T06:25:13.903</Modified>
@@ -576,11 +607,107 @@
     <AppxPackagedFile Include="D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\splitView.xbf">
       <PackagePath>Views\splitView.xbf</PackagePath>
       <Modified>2018-10-24T12:37:08.196</Modified>
+=======
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Assets\right-arrow.png">
+      <PackagePath>Assets\right-arrow.png</PackagePath>
+      <Modified>2018-10-24T06:25:49.484</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Images\IconosAgenda\right-arrow.png">
+      <PackagePath>Images\IconosAgenda\right-arrow.png</PackagePath>
+      <Modified>2018-10-24T11:17:23.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2018-10-22T12:17:57.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-22T12:17:57.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-22T12:17:57.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-22T12:17:58.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-22T12:17:58.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-22T12:17:58.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-22T12:17:58.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Images\Fotos\tejado1.jpg">
+      <PackagePath>Images\Fotos\tejado1.jpg</PackagePath>
+      <Modified>2018-10-24T12:15:47.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Images\Fotos\tejado2.jpg">
+      <PackagePath>Images\Fotos\tejado2.jpg</PackagePath>
+      <Modified>2018-10-24T12:15:47.907</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Images\Fotos\tejado3.jpg">
+      <PackagePath>Images\Fotos\tejado3.jpg</PackagePath>
+      <Modified>2018-10-24T12:15:47.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Images\Logos\indexlogo.jpg">
+      <PackagePath>Images\Logos\indexlogo.jpg</PackagePath>
+      <Modified>2018-10-24T06:25:51.820</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2018-10-22T12:17:58.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\10-UWP-Solarizr.xr.xml">
+      <PackagePath>10-UWP-Solarizr.xr.xml</PackagePath>
+      <Modified>2018-10-24T12:27:07.005</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2018-10-24T12:32:28.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2018-10-24T12:32:28.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\agendaView.xbf">
+      <PackagePath>Views\agendaView.xbf</PackagePath>
+      <Modified>2018-10-24T12:32:28.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\chatView.xbf">
+      <PackagePath>Views\chatView.xbf</PackagePath>
+      <Modified>2018-10-24T12:32:28.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\citaView.xbf">
+      <PackagePath>Views\citaView.xbf</PackagePath>
+      <Modified>2018-10-24T12:32:28.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\index.xbf">
+      <PackagePath>Views\index.xbf</PackagePath>
+      <Modified>2018-10-24T12:32:28.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Views\messages.xbf">
+      <PackagePath>Views\messages.xbf</PackagePath>
+      <Modified>2018-10-24T12:32:28.163</Modified>
+>>>>>>> 6ff0842f16acb89b9905bca16f495ac58bfe5acf
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-04-19T20:01:52.000</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -589,6 +716,16 @@
     <AppxPackagedFile Include="D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Core\10-UWP-Solarizr.exe">
       <PackagePath>10-UWP-Solarizr.exe</PackagePath>
       <Modified>2018-10-24T12:37:08.802</Modified>
+=======
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-24T12:19:37.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\bin\x86\Debug\Core\10-UWP-Solarizr.exe">
+      <PackagePath>10-UWP-Solarizr.exe</PackagePath>
+      <Modified>2018-10-24T12:32:28.914</Modified>
+>>>>>>> 6ff0842f16acb89b9905bca16f495ac58bfe5acf
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

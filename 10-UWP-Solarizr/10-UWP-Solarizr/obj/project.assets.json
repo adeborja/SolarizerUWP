@@ -27500,24 +27500,40 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\adeborja\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\sgarcia\\.nuget\\packages\\": {},
+>>>>>>> 6ff0842f16acb89b9905bca16f495ac58bfe5acf
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Github Angel\\SolarizerUWP\\10-UWP-Solarizr\\10-UWP-Solarizr\\10-UWP-Solarizr.csproj",
       "projectName": "10-UWP-Solarizr",
       "projectPath": "D:\\Github Angel\\SolarizerUWP\\10-UWP-Solarizr\\10-UWP-Solarizr\\10-UWP-Solarizr.csproj",
       "packagesPath": "C:\\Users\\adeborja\\.nuget\\packages\\",
       "outputPath": "D:\\Github Angel\\SolarizerUWP\\10-UWP-Solarizr\\10-UWP-Solarizr\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\sgarcia\\Desktop\\2DAM\\Desarrollo Interfaces\\010-SolarizerApp-WU\\10-UWP-Solarizr\\10-UWP-Solarizr\\10-UWP-Solarizr.csproj",
+      "projectName": "10-UWP-Solarizr",
+      "projectPath": "C:\\Users\\sgarcia\\Desktop\\2DAM\\Desarrollo Interfaces\\010-SolarizerApp-WU\\10-UWP-Solarizr\\10-UWP-Solarizr\\10-UWP-Solarizr.csproj",
+      "packagesPath": "C:\\Users\\sgarcia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sgarcia\\Desktop\\2DAM\\Desarrollo Interfaces\\010-SolarizerApp-WU\\10-UWP-Solarizr\\10-UWP-Solarizr\\obj\\",
+>>>>>>> 6ff0842f16acb89b9905bca16f495ac58bfe5acf
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\adeborja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\sgarcia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 6ff0842f16acb89b9905bca16f495ac58bfe5acf
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

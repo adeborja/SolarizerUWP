@@ -15,6 +15,13 @@ Views\chatView.xbf
 Views\citaView.xbf
 Views\index.xbf
 Views\messages.xbf
+<<<<<<< HEAD
 Views\splitView.xbf
+=======
+Images\Fotos\tejado1.jpg
+Images\Fotos\tejado2.jpg
+Images\Fotos\tejado3.jpg
+Images\IconosAgenda\right-arrow.png
+>>>>>>> 6ff0842f16acb89b9905bca16f495ac58bfe5acf
 Images\Logos\indexlogo.jpg
 Properties\Default.rd.xml
