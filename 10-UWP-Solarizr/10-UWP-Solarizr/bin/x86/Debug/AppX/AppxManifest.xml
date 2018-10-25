@@ -25,7 +25,7 @@
   <Applications>
     <Application Id="App" Executable="10-UWP-Solarizr.exe" EntryPoint="_10_UWP_Solarizr.App">
       <uap:VisualElements DisplayName="10-UWP-Solarizr" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="10-UWP-Solarizr" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"></uap:DefaultTile>
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
@@ -37,7 +37,7 @@
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="15.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2017" />
-    <build:Item Name="OperatingSystem" Version="10.0.17763.102 (WinBuild.160101.0800)" />
+    <build:Item Name="OperatingSystem" Version="10.0.17134.346 (WinBuild.160101.0800)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.28010.2016" />
     <build:Item Name="ProjectGUID" Value="{D0B29740-6541-4F45-972E-C922708831FE}" />
     <build:Item Name="OptimizingToolset" Value="None" />

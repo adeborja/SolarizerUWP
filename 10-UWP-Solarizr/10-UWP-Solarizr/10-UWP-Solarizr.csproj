@@ -95,18 +95,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Views\agendaView.xaml.cs">
-      <DependentUpon>agendaView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\chatView.xaml.cs">
-      <DependentUpon>chatView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\citaView.xaml.cs">
-      <DependentUpon>citaView.xaml</DependentUpon>
+    <Compile Include="Views\contact.xaml.cs">
+      <DependentUpon>contact.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\index.xaml.cs">
       <DependentUpon>index.xaml</DependentUpon>
@@ -117,12 +108,9 @@
     <Compile Include="Views\splitView.xaml.cs">
       <DependentUpon>splitView.xaml</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-=======
     <Compile Include="Views\warnings.xaml.cs">
       <DependentUpon>warnings.xaml</DependentUpon>
     </Compile>
->>>>>>> 2fe773f419ae5b9915ca2df6194f6e9406c5e7b9
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -133,6 +121,7 @@
   <ItemGroup>
     <Content Include="Assets\right-arrow.png" />
     <Content Include="Images\Logos\indexlogo.jpg" />
+    <Content Include="Images\Logos\indexlogohd.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -147,19 +136,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="MainPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\agendaView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\chatView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\citaView.xaml">
+    <Page Include="Views\contact.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -175,13 +152,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-<<<<<<< HEAD
-=======
     <Page Include="Views\warnings.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
->>>>>>> 2fe773f419ae5b9915ca2df6194f6e9406c5e7b9
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">

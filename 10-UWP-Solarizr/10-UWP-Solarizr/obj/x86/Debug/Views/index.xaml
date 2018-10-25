@@ -42,7 +42,7 @@
             Grid.Column="2"
             Grid.Row="1"
             Grid.RowSpan="4"
-            Source="../Images/Logos/indexlogo.jpg"/>
+            Source="../Images/Logos/indexlogohd.png"/>
 
         <!--Texto nombre de usuario-->
         <TextBlock
@@ -54,7 +54,8 @@
             />
 
         <!--caja nombre de usuario-->
-        <TextBox
+        <TextBox x:ConnectionId='2'
+            Name="txbNombre"
             Grid.Column="2"
             Grid.Row="7"
             Text=""
@@ -77,14 +78,16 @@
             />
 
         <!--caja contraseña-->
-        <PasswordBox
+        <PasswordBox x:ConnectionId='3'
+            Name="pswBox"
             Grid.Column="2"
             Grid.Row="10"
             VerticalAlignment="Top"
             />
         
         <!--boton Entrar-->
-        <Button
+        <Button x:ConnectionId='4'
+            Name="btnEntrar"
             Content="ENTRAR"
             Grid.Column="2"
             Grid.Row="12"
@@ -92,12 +95,13 @@
             VerticalAlignment="Center"
             Background="MediumSeaGreen"
             Foreground="White"
-            
+                                   
             />
 
         <!--Caja mensaje de error-->
-        <TextBlock
-            Text="El usuario o contraseña introducidos no es valido"
+        <TextBlock x:ConnectionId='5'
+            Name="tbkErrorLogin"
+            Text=""
             FontSize="20"
             Foreground="Red"
             Grid.Column="0"
@@ -135,8 +139,9 @@
             Grid.Column="3"
             Grid.ColumnSpan="2"
             Grid.Row="7">
-            <TextBlock
-                Text="El campo Usuario no puede estar vacio"
+            <TextBlock x:ConnectionId='7'
+                Name="tbkErrorNombre"
+                Text=""
                 FontSize="20"
                 Foreground="Red"
                 HorizontalAlignment="Left"
@@ -161,8 +166,9 @@
             Grid.Column="3"
             Grid.ColumnSpan="2"
             Grid.Row="10">
-            <TextBlock
-                Text="El campo Contraseña no puede estar vacio"
+            <TextBlock x:ConnectionId='6'
+                Name="tbkErrorContrasena"
+                Text=""
                 FontSize="20"
                 Foreground="Red"
                 HorizontalAlignment="Left"

@@ -1,9 +1,1 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-D:\Github Angel\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\10-UWP-Solarizr.csproj;x86
-=======
-C:\Users\sgarcia\Desktop\2DAM\Desarrollo Interfaces\010-SolarizerApp-WU\10-UWP-Solarizr\10-UWP-Solarizr\10-UWP-Solarizr.csproj;x86
->>>>>>> 6ff0842f16acb89b9905bca16f495ac58bfe5acf
-=======
-E:\Documentos\REPOSITORIOS 2018-19\SolarizerUWP\10-UWP-Solarizr\10-UWP-Solarizr\10-UWP-Solarizr.csproj;x86
->>>>>>> 2fe773f419ae5b9915ca2df6194f6e9406c5e7b9
+C:\Users\adeborja\Desktop\10-UWP-Solarizr\10-UWP-Solarizr\10-UWP-Solarizr.csproj;x86

@@ -8,48 +8,82 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+
     <Grid>
-        <!--Definiciones del grid-->
         <Grid.RowDefinitions>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="1*"/>
-        </Grid.ColumnDefinitions>
-        
-        <!--texto de titulo-->
-        <TextBlock
-            Text="Mensajes"
-            Grid.Row="0"
-            Grid.Column="2"
-            FontSize="40"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center"
-            />
-        
-        <!--texto Sin mensajes-->
-        <TextBlock
-            Text="No tienes mensajes nuevos"
-            Grid.Row="5"
-            Grid.Column="1"
-            FontSize="30"
-            Grid.ColumnSpan="3"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Top"
-            />
+        <Grid Grid.Row="0" Grid.Column="0" Background="LightGray">
+            <TextBlock Text="Mensajes" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Grid>
+        <Button x:ConnectionId='2' Margin="0,0,30,0" Width="39" Height="39"                      Grid.Row="0" Grid.Column="0" Background="LightGray">
+            <SymbolIcon Symbol="Document"/>
+        </Button>
+
+        <SplitView x:ConnectionId='3' Name="menuSplitView"
+                   DisplayMode="CompactOverlay"
+                   CompactPaneLength="39"
+                   OpenPaneLength="120"
+                   Grid.Row="1"
+                   >
+            <SplitView.Pane>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!--Boton Home-->
+                    <Button x:ConnectionId='4' Name="btnHome"                       Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center">
+                        <StackPanel Orientation="Horizontal" Width="150">
+                            <SymbolIcon Symbol="Home"/>
+                            <TextBlock Text="Inicio" Margin="10,0,0,0"/>
+                        </StackPanel>
+                    </Button>
+
+                    <!--Boton Mensajes-->
+                    <Button x:ConnectionId='5' Name="btnMensajes" Grid.Row="1" Margin="0,0,0,0"                           Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <StackPanel Orientation="Horizontal" Width="150">
+                            <SymbolIcon Symbol="Message"/>
+                            <TextBlock Text="Mensajes" Margin="10,0,0,0"/>
+                        </StackPanel>
+                    </Button>
+
+                    <!--Boton Avisos-->
+                    <Button x:ConnectionId='6' Grid.Row="2" Margin="0,-1,0,-1" Name="btnAvisos"                         Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <StackPanel Orientation="Horizontal" Width="150">
+                            <SymbolIcon Symbol="DisableUpdates"/>
+                            <TextBlock Text="Avisos" Margin="10,0,0,0"/>
+                        </StackPanel>
+                    </Button>
+
+                    <!--Boton Contacto-->
+                    <Button x:ConnectionId='7' Grid.Row="3" Margin="0,-1,0,-1" Name="btnContactos"                            Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <StackPanel Orientation="Horizontal" Width="150">
+                            <SymbolIcon Symbol="ContactPresence"/>
+                            <TextBlock Text="Contacto" Margin="10,0,0,0"/>
+                        </StackPanel>
+                    </Button>
+
+                </Grid>
+            </SplitView.Pane>
+
+            <SplitView.Content>
+                <!--Aqui va el contenido de cada vista-->
+                <TextBlock 
+                        Text="No tienes mensajes nuevos" 
+                        HorizontalAlignment="Center" 
+                        VerticalAlignment="Center"/>
+            </SplitView.Content>
+        </SplitView>
 
     </Grid>
 </Page>

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 WinMetadata\Windows.winmd
 Assets\LockScreenLogo.scale-200.png
 Assets\right-arrow.png
@@ -10,41 +9,11 @@ Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 10-UWP-Solarizr.xr.xml
 App.xbf
-MainPage.xbf
-Views\agendaView.xbf
-Views\chatView.xbf
-Views\citaView.xbf
-Views\index.xbf
-Views\messages.xbf
-<<<<<<< HEAD
-Views\splitView.xbf
-=======
-Images\Fotos\tejado1.jpg
-Images\Fotos\tejado2.jpg
-Images\Fotos\tejado3.jpg
-Images\IconosAgenda\right-arrow.png
->>>>>>> 6ff0842f16acb89b9905bca16f495ac58bfe5acf
-Images\Logos\indexlogo.jpg
-Properties\Default.rd.xml
-=======
-Assets\LockScreenLogo.scale-200.png
-Assets\right-arrow.png
-Assets\SplashScreen.scale-200.png
-Assets\Square150x150Logo.scale-200.png
-Assets\Square44x44Logo.scale-200.png
-Assets\Square44x44Logo.targetsize-24_altform-unplated.png
-Assets\StoreLogo.png
-Assets\Wide310x150Logo.scale-200.png
-10-UWP-Solarizr.xr.xml
-App.xbf
-MainPage.xbf
-Views\agendaView.xbf
-Views\chatView.xbf
-Views\citaView.xbf
+Views\contact.xbf
 Views\index.xbf
 Views\messages.xbf
 Views\splitView.xbf
+Views\warnings.xbf
 Images\Logos\indexlogo.jpg
+Images\Logos\indexlogohd.png
 Properties\Default.rd.xml
-WinMetadata\Windows.winmd
->>>>>>> 2fe773f419ae5b9915ca2df6194f6e9406c5e7b9

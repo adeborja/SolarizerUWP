@@ -26,5 +26,45 @@ namespace _10_UWP_Solarizr.Views
         {
             this.InitializeComponent();
         }
+
+        private void btnEntrar_Click(object sender, RoutedEventArgs e)
+        {
+            //Comprobar nombre de usuario
+            if(txbNombre.Text=="")
+            {
+                tbkErrorNombre.Text = "El campo Usuario no puede estar vacio";
+            }
+            else
+            {
+                tbkErrorNombre.Text = "";
+            }
+
+            //Comprobar contraseña
+            if (pswBox.Password.ToString()=="")
+            {
+                tbkErrorContrasena.Text = "El campo Contraseña no puede estar vacio";
+            }
+            else
+            {
+                tbkErrorContrasena.Text = "";
+            }
+
+            //Simular login
+            if (txbNombre.Text != "" && pswBox.Password.ToString() != "")
+            {
+                if(txbNombre.Text == "Angel" && pswBox.Password.ToString() == "123")
+                {
+                        this.Frame.Navigate(typeof(splitView));
+                }
+                else
+                {
+                    tbkErrorLogin.Text = "El usuario o contraseña introducidos no es valido";
+                }
+            }
+            else
+            {
+                tbkErrorLogin.Text = "";
+            }
+        }
     }
 }

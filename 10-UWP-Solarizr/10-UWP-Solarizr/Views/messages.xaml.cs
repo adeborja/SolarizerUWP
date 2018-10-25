@@ -26,5 +26,39 @@ namespace _10_UWP_Solarizr.Views
         {
             this.InitializeComponent();
         }
+
+        #region Acciones de botones del splitview
+
+        //boton expandir listview
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            menuSplitView.IsPaneOpen = !menuSplitView.IsPaneOpen;
+        }
+
+        //boton home
+        private void btnHome_Click(object sender, RoutedEventArgs e)
+        {
+            //this.Frame.Navigate(typeof(home));
+        }
+
+        //boton mensajes
+        private void btnMensajes_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(messages));
+        }
+
+        //boton avisos
+        private void btnAvisos_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(warnings));
+        }
+
+        //boton contactos
+        private void btnContactos_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(contact));
+        }
+
+        #endregion
     }
 }
